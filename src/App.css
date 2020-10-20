@@ -1,38 +1,49 @@
-.App {
+body {
+  background-color: black;
+}
+
+.wrapper{
+  color: white; 
+}
+
+h1 {
+  padding: 1%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  background-color: rgb(51, 48, 48);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#question {
+  font-family: arial;
+  font-weight: 100;
+  font-size: 0.9em;
+  padding: 0.6%;
+  padding-top: 0.7%;
+  text-align: left;
+  margin: 0.25% 36%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+#plus {
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+#freeTrial {
+  background-color: red;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: arial;
+  font-weight: 100;
+  font-size: 0.9em;
+  padding: 0.6%;
+  text-align: center;
+  margin: 2.5% 45%;
 }
